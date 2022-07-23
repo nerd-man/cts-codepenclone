@@ -6,15 +6,14 @@ body {
     background-color: #000000;
     color: white;
 } 
-
-.header > .items {
+.header {
     width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header > .items > .nav > .explore {
+.header > .nav > .explore {
     color: gold;
 }
 
