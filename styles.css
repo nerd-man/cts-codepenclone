@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: #000000;
+    color: white;
+} 
+
+.header > .items {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > .items > .nav > .explore {
+    color: gold;
+}
+
+label {
+    color: gray;
+}
+
+select {
+    border-width: 0px;
+    color: gray;
+    background-color: transparent;
+}
