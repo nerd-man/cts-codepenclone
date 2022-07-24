@@ -26,3 +26,8 @@ select {
     color: gray;
     background-color: transparent;
 }
+
+.buttons > button{
+    border-width: 0px;
+    background-color: #737373;
+}
