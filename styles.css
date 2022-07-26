@@ -1,13 +1,21 @@
 body {
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header {
     background-color: #000000;
     color: white;
+    display: flex;
+    justify-content: space-between;
 } 
+
+.logo {
+    padding-left: 10px;
+}
+
 .header > .nav-bar{
-    width: 1000px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +27,7 @@ body {
 
 label#spark {
     color: gray;
+    margin-left: 20px;
 }
 
 select#spark {
@@ -39,27 +48,30 @@ select{
     justify-content: right;
     align-items: center;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .buttons > .button#create-button {
     border-width: 0px;
-    background-color: #2a2a2a;
+    background-color: #353535;
     padding: 10px;
     border-radius: 5px;
+    margin: 5px;
 }
 
 .buttons > .button > button {
+    color: white;
     border-width: 0px;
-    background-color: #2a2a2a;
-    padding: 10px;
+    background-color: #353535;
+    padding: 13px 13px;
     border-radius: 5px;
+    margin: 5px;
 }
 
 
 .buttons > .magnifying-glass > button {
     border-width: 0px;
     background-color: transparent;
-    color: #2a2a2a;
+    color: #353535;
     font-size: 20px;
 }
