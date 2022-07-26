@@ -7,7 +7,7 @@ body {
     color: white;
 } 
 .header > .nav-bar{
-    width: 1200px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,17 +17,49 @@ body {
     color: gold;
 }
 
-label {
+label#spark {
     color: gray;
 }
 
-select {
-    border-width: 0px;
+select#spark {
     color: gray;
+}
+
+select#create {
+    color: green;
+}
+
+select{
+    border-width: 0px;
     background-color: transparent;
 }
 
-.buttons > button{
+.buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttons > .button#create-button {
     border-width: 0px;
-    background-color: #737373;
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.buttons > .button > button {
+    border-width: 0px;
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.buttons > .magnifying-glass > button {
+    border-width: 0px;
+    background-color: transparent;
+    color: #2a2a2a;
+    font-size: 20px;
 }
