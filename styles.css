@@ -1,8 +1,11 @@
 body {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
 }
 
+/* Header of website */
 .header {
     background-color: #000000;
     color: white;
@@ -55,7 +58,7 @@ select{
     border-width: 0px;
     background-color: #353535;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
     margin: 5px;
 }
 
@@ -64,7 +67,7 @@ select{
     border-width: 0px;
     background-color: #353535;
     padding: 13px 13px;
-    border-radius: 5px;
+    border-radius: 3px;
     margin: 5px;
 }
 
@@ -74,4 +77,51 @@ select{
     background-color: transparent;
     color: #353535;
     font-size: 20px;
+}
+
+/* Middle of website */
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #33333a;
+}
+
+.middle > .left-side-of-screen {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.middle > .left-side-of-screen p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.middle > .left-side-of-screen > #btn button{
+    color: white;
+    font-size: x-large;
+    border-width: 0px;
+    border-radius: 2px;
+    padding: 13px 13px;
+}
+
+.middle > .left-side-of-screen > #btn > #sign-up {
+    color: black;
+    background-color: mediumspringgreen;
+}
+
+.middle > .left-side-of-screen > #btn > #learn-more {
+    background: #101010;
+}
+
+.middle > .right-side-of-screen a {
+    text-decoration: none;
+    color: #58bceb;
+}
+
+.middle > .right-side-of-screen img{
+    width: 100%;
+    height: 500px;
+    box-shadow: -22px -19px 84px -6px rgba(0,0,0,0.5);
 }
